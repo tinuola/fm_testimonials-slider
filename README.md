@@ -1,5 +1,5 @@
-# Frontend Mentor: Challenge Name
-This is a solution to the _[]()_ challenge on Frontend Mentor. Frontend Mentor challenges help improve coding skills through building realistic projects.
+# Frontend Mentor: Coding Bootcamp Testimonials Slider
+This is a solution to the _[Coding Bootcamp Testimonials Slider](https://www.frontendmentor.io/challenges/coding-bootcamp-testimonials-slider-4FNyLA8JL)_ challenge on Frontend Mentor. Frontend Mentor challenges help improve coding skills through building realistic projects.
 
 
 ### Challenge
