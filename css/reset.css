@@ -1,0 +1,45 @@
+/* Basic CSS Reset based on Andy Bell's Modern CSS Reset  */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Set core root defaults */
+html {
+	scroll-behavior: smooth;
+}
+
+/* Remove defaults */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+	margin: 0;
+	padding: 0;
+}
+
+/* Make images easier to work with */
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+	list-style: none;
+}
+
+/* Override default appearance of input element on iOS */
+input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
