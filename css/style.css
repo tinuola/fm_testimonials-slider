@@ -37,17 +37,15 @@ main {
 }
 
 .container {
-  max-width: 450px;
+  max-width: 340px;
   width: 100%;
   margin: 2rem auto 0 auto;
 }
 
-
 .testimonial__img {
   background-image: url('../assets/images/pattern-bg.svg');
   background-repeat: no-repeat;
-  /* background-position: center top; */
-  background-position: center;
+  background-position: center 37px;
   background-size: contain;
   height: 400px;
   display: flex;
@@ -64,7 +62,7 @@ main {
 .testimonial__body {
   background-image: url('../assets/images/pattern-quotes.svg');
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center -40px;
   padding-top: 2rem;
   font-size: 1.2rem;
   line-height: 1.5;
@@ -72,7 +70,6 @@ main {
 }
 
 .testimonial__quote {
-  /* font-size: 1.2rem; */
   font-weight: 300;
   line-height: 1.5;
 }
@@ -109,7 +106,7 @@ main {
 }
 
 .fm-attribution-row {
-  /* margin-top: 3rem; */
+  margin-top: 3rem;
   padding-bottom: 3rem;
 }
 
