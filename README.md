@@ -3,6 +3,10 @@ This is a solution to the _[Coding Bootcamp Testimonials Slider](https://www.fro
 
 
 ### Challenge
+- Build out a _blank_ using the provided desktop and mobile designs
+- Users should be able to:
+  - View the optimal layout for the component depending on their device's screen size
+  - Navigate the slider using either their mouse/trackpad or keyboard
 
 
 ### Solution
