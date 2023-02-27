@@ -31,10 +31,6 @@ body {
   display: none;
 }
 
-.show {
-  display: block;
-}
-
 .disable {
   color: lightslategray;
 }
