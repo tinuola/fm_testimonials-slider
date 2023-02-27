@@ -35,6 +35,10 @@ body {
   display: block;
 }
 
+.disable {
+  color: lightslategray;
+}
+
 .fm-attribution {
   font-size: .75rem;
   letter-spacing: 1px;
