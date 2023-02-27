@@ -9,6 +9,14 @@ body {
   text-rendering: optimizeSpeed;
   font-family: var(--primary-font);
   font-size: 2rem;
+  font-weight: 500;
+  color: var(--dark-blue);
+  background-image: url('../assets/images/pattern-curve.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  display: grid;
+  grid-template-rows: 1fr auto;
 }
 
 .sr-only {
@@ -23,6 +31,71 @@ body {
   position: absolute;  
 }
 
+main {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.container {
+  max-width: 450px;
+  width: 100%;
+  margin: 2rem auto 0 auto;
+}
+
+
+.testimonial__img {
+  background-image: url('../assets/images/pattern-bg.svg');
+  background-repeat: no-repeat;
+  /* background-position: center top; */
+  background-position: center;
+  background-size: contain;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial__img img {
+  /* width: 330px; */
+  width: 270px;
+  margin: 0 auto;
+}
+
+.testimonial__body {
+  background-image: url('../assets/images/pattern-quotes.svg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.testimonial__quote {
+  /* font-size: 1.2rem; */
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.testimonial__byline {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.author {
+  font-weight: 700;
+}
+
+.title {
+  color: var(--gray-blue);
+}
+
+.slider-control {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 #prev, #next {
   cursor: pointer;
 }
@@ -35,10 +108,16 @@ body {
   color: lightslategray;
 }
 
+.fm-attribution-row {
+  /* margin-top: 3rem; */
+  padding-bottom: 3rem;
+}
+
 .fm-attribution {
   font-size: .75rem;
   letter-spacing: 1px;
   line-height: 1.5;
+  text-align: center;
 }
 
 .fm-attribution,
