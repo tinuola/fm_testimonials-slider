@@ -22,6 +22,7 @@ Live Site: [https://tinuola.github.io/fm_testimonials-slider/](https://tinuola.g
 - HTML, CSS, JavaScript
 - [A Modern CSS Reset by Andy Bell](https://piccalil.li/blog/a-modern-css-reset/)
 - [Easily overlap content with CSS Grid](https://youtu.be/HFG3BKOqOlE) _(Kevin Powell)_
+- [Making actions keyboard accessible by using the onclick event of anchors and buttons](https://www.w3.org/WAI/WCAG21/Techniques/client-side-script/SCR35.html)
 
 
 _Visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/tinuola) to view other challenges I've completed!_
