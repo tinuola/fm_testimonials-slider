@@ -6,7 +6,7 @@ This is a solution to the _[Coding Bootcamp Testimonials Slider](https://www.fro
 
 
 ### Solution
-Live Site: []()
+Live Site: [https://tinuola.github.io/fm_testimonials-slider/](https://tinuola.github.io/fm_testimonials-slider/)
 
 
 ### Potential Enhancement(s)

@@ -8,7 +8,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   font-family: var(--primary-font);
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .sr-only {
@@ -23,10 +23,25 @@ body {
   position: absolute;  
 }
 
-.fm-attribution {
-  font-size: .75rem;
+#prev, #next {
+  cursor: pointer;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.fm-attribution {
+  font-size: .75rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+.fm-attribution,
 .fm-attribution a {
   color: hsl(228, 45%, 44%);
 }
