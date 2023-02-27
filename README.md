@@ -14,14 +14,14 @@ Live Site: [https://tinuola.github.io/fm_testimonials-slider/](https://tinuola.g
 
 
 ### Potential Enhancement(s)
-- 
-- 
+- Slight animation to slider behavior
+- Automatic/continuous rotation
 
 
 ### Tools & Resources
 - HTML, CSS, JavaScript
 - [A Modern CSS Reset by Andy Bell](https://piccalil.li/blog/a-modern-css-reset/)
-- []()
+- [Easily overlap content with CSS Grid](https://youtu.be/HFG3BKOqOlE) _(Kevin Powell)_
 
 
 _Visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/tinuola) to view other challenges I've completed!_
