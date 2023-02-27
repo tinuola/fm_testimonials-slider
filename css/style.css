@@ -197,7 +197,7 @@ main {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  gap: 2rem;
+  gap: 1.25rem;
   /* Centering to container */
   position: absolute;
   top: 49%;
@@ -214,6 +214,12 @@ main {
 
 #prev, #next {
   cursor: pointer;
+  border: 0;
+  background: transparent;
+}
+
+.slider-control img {
+  max-width: unset;
 }
 
 .hide {
