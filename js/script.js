@@ -1,26 +1,16 @@
 const prevBtn = document.getElementById('prev')
-
 const nextBtn = document.getElementById('next')
-
 const images = document.querySelectorAll('.image')
 
 let sliderLength = images.length
-
 let count = 0
 
-let currentImage = null 
-
-let nextImage = null
-
-let previousImage = null
+let currentImage; 
+let nextImage;
+let previousImage;
 
 
 nextBtn.addEventListener('click', function(){
-// if( count >= 0 && count < sliderLength-1){
-//  count++;
-//  console.log(count)
-// }
-
   if( count >= 0 && count < sliderLength-1){
     prevBtn.classList.remove('disable')
     currentImage = images[count]
@@ -38,11 +28,6 @@ nextBtn.addEventListener('click', function(){
 
 
 prevBtn.addEventListener('click', function(){
-  // if( count <= sliderLength && count > 0){
-  //   count--;
-  //   console.log(count)
-  // }
-
   if( count <= sliderLength && count > 0){
     nextBtn.classList.remove('disable')
     currentImage.classList.add('hide')
