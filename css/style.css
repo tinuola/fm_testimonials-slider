@@ -233,6 +233,7 @@ main {
 .fm-attribution-row {
   margin-top: 5rem;
   padding-bottom: 1.5rem;
+  text-align: center;
 }
 
 @media (min-width: 1024px){
@@ -241,14 +242,28 @@ main {
   }
 }
 
-.fm-attribution {
+.fm-attribution,
+.unsplash-byline {
   font-size: .75rem;
   letter-spacing: 1px;
   line-height: 1.5;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .fm-attribution,
-.fm-attribution a {
+.unsplash-byline,
+.fm-attribution a,
+.unsplash-byline a {
   color: hsl(228, 45%, 44%);
+}
+
+  .unsplash-byline {
+    margin-top: 0.35rem;
+  }
+
+
+@media (min-width: 1024px){
+  .unsplash-byline p {
+    display: inline;
+  }
 }
